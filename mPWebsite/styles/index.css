@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    color: whitesmoke;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.principalBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 45px;
+}
+
+.principalBox h1 {
+
+ font-family: 'Poppins';
+ font-size: 35px;
+
+}
+
+.MainBox p{
+    max-width: 775px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.secondBox {
+    padding: 50px;
+    display: flex;
+
+}
+
+.SecondBox p{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    padding:0;
+    min-width: 280px; 
+}
+
+#infos{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    
+}
+
+
+footer{
+    background-color: #28242c;
+    display: flex;
+    text-decoration: none;
+    align-content: space-around;
+    padding: 15px;
+    justify-content: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer span{
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+@media all and (max-width: 1020px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+
+    .secondBox{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+.about {
+    font-family: 'Poppins';
+}
+
+#img, #img-2 {
+
+    padding: 10px;
+    max-width: 100px;
+}
+
+.threeBox {
+
+    color:black;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+.threeBox p {
+
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.threeBox h1 {
+
+    font-size: 29px;
+}
+
+.softwares {
+
+    color:black;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.softwares h1 {
+
+    font-size: 29px;
+}
+
+.softwares p {
+   
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    padding: 0px;
+
+}
+
+.final {
+
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+}

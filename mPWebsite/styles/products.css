@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    color: whitesmoke;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.principalBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 45px;
+}
+
+.principalBox h1{
+
+ font-family: 'Poppins';
+ font-size: 35px;
+
+}
+
+.MainBox p{
+    max-width: 775px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.final {
+
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+}
+.btt {
+    font-family: 'Poppins';
+  color: #42E398 !important;
+font-size: 13px;
+text-shadow: 1px 1px 0px #000000;
+box-shadow: 0px 0px 0px #BEE2F9;
+padding: 10px 8px;
+border-radius: 24px;
+border: 2px solid #3866A3;
+background: aliceblue;
+background: linear-gradient(to top, #000000, #000000);
+}
+
+  .grid {
+      font-family: 'Poppins';
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+  }
+  
+  .grid > article {
+    text-align: center;
+    font-family: 'Poppins';
+    border: 1px solid rgb(30, 167, 83);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .grid > article img {
+    font-family: 'Poppins';
+    max-width: 100%;
+  }
+  
+  .grid .text {
+    font-family: 'Poppins';
+    padding: 20px;
+  }
